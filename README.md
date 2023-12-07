@@ -1,3 +1,18 @@
+<h1 align="center">customed by kbm</h1>
+
+```
+cd ~/.oh-my-zsh
+git remote set-url origin "git@github.com:bmmmmmmmmm/ohmyzsh.git"
+git fetch origin
+git checkout -t origin/kbm
+```
+
+```
+vim ~/.zshrc
+>> ZSH_THEME="kbm"
+source ~/.zshrc
+```
+
 <p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/)
